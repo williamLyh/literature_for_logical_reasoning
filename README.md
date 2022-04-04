@@ -15,7 +15,7 @@
   * [Discourse Representation Structure Parsing](https://aclanthology.org/P18-1040.pdf)
   * 
 ## Literature for FOL parsing
-* [Exploring Neural Models for Parsing Natural Language into First-Order Logic](https://arxiv.org/pdf/2002.06544.pdf)
+* [Exploring Neural Models for Parsing Natural Language into First-Order Logic](https://arxiv.org/pdf/2002.06544.pdf)(2020): A general purpose open-domain neural FOL parser. Treat as a Seq2Seq transduction problem. Encoder and decoder are both LSTM-based with attention. Results seem not good enough to work as a tool.
 
 ## Theorem Proving 
 * [Towards Neural Theorem Proving at Scale](https://arxiv.org/pdf/1807.08204.pdf)
