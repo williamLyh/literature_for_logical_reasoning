@@ -29,9 +29,12 @@
 * [Reasoning about Entailment with Neural Attention](https://arxiv.org/pdf/1509.06664.pdf)
 
 ## Literature for Natural logic(Lambda Logical Forms LLFs)
-* [NaturalLI: Natural Logic Inference for Common Sense Reasoning*](https://nlp.stanford.edu/pubs/angeli2014-emnlp-naturalli.pdf)(EMNLP 2014): Natural Logic inference cast as search. Each step of the search tree has branches of all relations types (MacCartney relations). The sequence of logic relations can be expressed as a finite state automaton.
-* [Natural Solution to FraCaS Entailment Problems](https://aclanthology.org/S16-2007.pdf)(SEM 2016)
-* [LANGPRO: Natural Language Theorem Prover](https://aclanthology.org/D17-2020.pdf)(EMNLP 2017): Based on analytic tableau method designed for natural logic. Pipeline includes CCG parser, LLF generator and NLogProver. However, rules used by the prover are manually collected according to the development data (might suggest bad at generalization). Good performance on FraCaS and SICK textual entailment dataets.
+* [NaturalLI: Natural Logic Inference for Common Sense Reasoning*](https://nlp.stanford.edu/pubs/angeli2014-emnlp-naturalli.pdf)(EMNLP 2014, G. Angeli and C. Manning): Natural Logic inference cast as search. Each step of the search tree has branches of all relations types (MacCartney relations). The sequence of logic relations can be expressed as a finite state automaton.
+* [Natural Solution to FraCaS Entailment Problems](https://aclanthology.org/S16-2007.pdf)(SEM 2016, L. Abzianidze)
+* [LANGPRO: Natural Language Theorem Prover](https://aclanthology.org/D17-2020.pdf)(EMNLP 2017, L. Abzianidze): Based on analytic tableau method designed for natural logic. Pipeline includes CCG parser, LLF generator and NLogProver. However, rules used by the prover are manually collected according to the development data (might suggest bad at generalization). Good performance on FraCaS and SICK textual entailment dataets.
+* [Natural Language Inference with Monotonicity](https://aclanthology.org/W19-0502.pdf)(ACL 2019, H. Hu and L. Moss)
+* [Exploring End-to-End Differentiable Natural Logic Modeling](https://aclanthology.org/2020.coling-main.101.pdf)(COLING 2020, Yufei Feng and Xiaodan Zhu)
+* [A Logic-Driven Framework for Consistency of Neural Models](https://aclanthology.org/D19-1405.pdf)(EMNLP 2019, Tao Li and V. Srikumar)
 
 ## Logical fact verification 
 * [LOREN: Logic-Regularized Reasoning for Interpretable Fact Verification](https://arxiv.org/pdf/2012.13577.pdf) (AAAI 2022): Decompose the verification of the whole claim at phrase-level. The veracity of each phrase is 3-valued. The veracity of the whole claim is based on rules over veracities of all phrases.
