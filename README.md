@@ -3,7 +3,7 @@
 ## Literature for logical reasoning
 * Johan Bos's line of research
   * [Recognising Textual Entailment with Logical Inference](https://aclanthology.org/H05-1079.pdf)
-  * Boxer: [Wide-Coverage Semantic Analysis with Boxer](https://aclanthology.org/W08-2222.pdf), brief description [Open-Domain Semantic Parsing with Boxer](https://aclanthology.org/W15-1841.pdf)
+  * Boxer: [Wide-Coverage Semantic Analysis with Boxer](https://aclanthology.org/W08-2222.pdf), brief description [Open-Domain Semantic Parsing with Boxer](https://aclanthology.org/W15-1841.pdf)(NODALIDA 2015)
 
 * [Reasoning Like Program Executors](https://arxiv.org/pdf/2201.11473.pdf)
 * [Neural Unification for Logic Reasoning over Natural Language](https://arxiv.org/pdf/2109.08460.pdf)
@@ -27,6 +27,11 @@
 * Allen's AI:
   * [Transformers as Soft Reasoners over Language](https://arxiv.org/pdf/2002.05867.pdf)
 * [Reasoning about Entailment with Neural Attention](https://arxiv.org/pdf/1509.06664.pdf)
+
+## Literature for Natural logic(Lambda Logical Forms LLFs)
+* [NaturalLI: Natural Logic Inference for Common Sense Reasoning*](https://nlp.stanford.edu/pubs/angeli2014-emnlp-naturalli.pdf)(EMNLP 2014): Natural Logic inference cast as search. Each step of the search tree has branches of all relations types (MacCartney relations). The sequence of logic relations can be expressed as a finite state automaton.
+* [Natural Solution to FraCaS Entailment Problems](https://aclanthology.org/S16-2007.pdf)(SEM 2016)
+* [LANGPRO: Natural Language Theorem Prover](https://aclanthology.org/D17-2020.pdf)(EMNLP 2017): Based on analytic tableau method designed for natural logic. Pipeline includes CCG parser, LLF generator and NLogProver. However, rules used by the prover are manually collected according to the development data (might suggest bad at generalization). Good performance on FraCaS and SICK textual entailment dataets.
 
 ## Logical fact verification 
 * [LOREN: Logic-Regularized Reasoning for Interpretable Fact Verification](https://arxiv.org/pdf/2012.13577.pdf) (AAAI 2022): Decompose the verification of the whole claim at phrase-level. The veracity of each phrase is 3-valued. The veracity of the whole claim is based on rules over veracities of all phrases.
