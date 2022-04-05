@@ -3,7 +3,7 @@
 ## Literature for logical reasoning
 * Johan Bos's line of research
   * [Recognising Textual Entailment with Logical Inference](https://aclanthology.org/H05-1079.pdf)
-  * Boxer: [Wide-Coverage Semantic Analysis with Boxer](https://aclanthology.org/W08-2222.pdf)
+  * Boxer: [Wide-Coverage Semantic Analysis with Boxer](https://aclanthology.org/W08-2222.pdf), brief description [Open-Domain Semantic Parsing with Boxer](https://aclanthology.org/W15-1841.pdf)
 
 * [Reasoning Like Program Executors](https://arxiv.org/pdf/2201.11473.pdf)
 * [Neural Unification for Logic Reasoning over Natural Language](https://arxiv.org/pdf/2109.08460.pdf)
