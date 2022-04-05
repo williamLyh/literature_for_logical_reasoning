@@ -45,8 +45,8 @@
 
 ## Datasets
 * Recognising Textual Entailment tasks
- * [LogiQA: A Challenge Dataset for Machine Reading Comprehension with Logical Reasoning](https://arxiv.org/pdf/2007.08124.pdf)
- * [CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text](https://arxiv.org/pdf/1908.06177.pdf)
- * FraCaS
- * SICK
+  * [LogiQA: A Challenge Dataset for Machine Reading Comprehension with Logical Reasoning](https://arxiv.org/pdf/2007.08124.pdf)
+  * [CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text](https://arxiv.org/pdf/1908.06177.pdf)
+  * FraCaS
+  * SICK
 * Entailment Generation tasks
