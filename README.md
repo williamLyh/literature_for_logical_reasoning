@@ -13,7 +13,7 @@
 * [Exploring Neural Methods for Parsing Discourse Representation Structures](https://aclanthology.org/Q18-1043.pdf)
 * Jiangming Liu's line of reasearch:
   * [Discourse Representation Structure Parsing](https://aclanthology.org/P18-1040.pdf)
-  * 
+  * [DRTS Parsing with Structure-Aware Encoding and Decoding](https://aclanthology.org/2020.acl-main.609.pdf)(acl 2020, Qiankun Fu and Jiangming Liu) Structure aware DRS parser (Likely the latest DRS parser).
 ## Literature for FOL parsing
 * [Exploring Neural Models for Parsing Natural Language into First-Order Logic](https://arxiv.org/pdf/2002.06544.pdf)(2020): A general purpose open-domain neural FOL parser. Treat as a Seq2Seq transduction problem. Encoder and decoder are both LSTM-based with attention. Results seem not good enough to work as a tool.
 
