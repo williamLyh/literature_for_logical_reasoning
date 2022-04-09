@@ -4,9 +4,9 @@
 * Johan Bos's line of research
   * [Recognising Textual Entailment with Logical Inference](https://aclanthology.org/H05-1079.pdf)
   * Boxer: [Wide-Coverage Semantic Analysis with Boxer](https://aclanthology.org/W08-2222.pdf), brief description [Open-Domain Semantic Parsing with Boxer](https://aclanthology.org/W15-1841.pdf)(NODALIDA 2015)
-   * Some helpful link to complie Boxer: [discussion](https://github.com/nltk/nltk/issues/1612)
-   * [new candc installation](https://github.com/chrzyki/candc) 
-   * [nltk boxer tool](https://www.nltk.org/_modules/nltk/sem/boxer.html)
+    * Some helpful link to complie Boxer: [discussion](https://github.com/nltk/nltk/issues/1612)
+    * [new candc installation](https://github.com/chrzyki/candc) 
+    * [nltk boxer tool](https://www.nltk.org/_modules/nltk/sem/boxer.html)
 
 * [Reasoning Like Program Executors](https://arxiv.org/pdf/2201.11473.pdf)
 * [Neural Unification for Logic Reasoning over Natural Language](https://arxiv.org/pdf/2109.08460.pdf)
