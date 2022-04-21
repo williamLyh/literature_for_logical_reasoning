@@ -43,6 +43,9 @@
 * [LOREN: Logic-Regularized Reasoning for Interpretable Fact Verification](https://arxiv.org/pdf/2012.13577.pdf) (AAAI 2022): Decompose the verification of the whole claim at phrase-level. The veracity of each phrase is 3-valued. The veracity of the whole claim is based on rules over veracities of all phrases.
 * [ProoFVer: Natural Logic Theorem Proving for Fact Verification](https://arxiv.org/pdf/2108.11357.pdf) (2021): Using Natural Logic and a deterministic finite state automaton. The veracity of a claim is determined based on the seqeunce of natural logic relations in the proof. Each natural logic relation is got by comparing a span in the claim and spans in a set of retrieved evidence.
 
+## Neuro-Symbolic Reasoning
+* [An Interpretable Neuro-Symbolic Reasoning Framework for Task-Oriented Dialogue Generation](https://arxiv.org/pdf/2203.05843.pdf) (ACL 2022): They focus on task-oriented dialogue system. Apply logic chain reasoning with a hypothesis generator and a reasoner(chain verfication). The chains and dialogue responses are triples with entities from dialogue and KB.
+
 ## Generation sampling
 * [CGMH: Constrained Sentence Generation by Metropolis-Hastings Sampling](https://arxiv.org/pdf/1811.10996.pdf)
 
