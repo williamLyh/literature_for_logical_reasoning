@@ -22,6 +22,12 @@
 
 ## Theorem Proving 
 * [Towards Neural Theorem Proving at Scale](https://arxiv.org/pdf/1807.08204.pdf)
+* [End-to-End Differentiable Proving](https://arxiv.org/pdf/1705.11040.pdf)
+* Symbolic theorem prover [Prolog](): Symbolic provers lack the ability to **learn subsymbolic representations** and similarities between them from large KBs, which limits their ability to generalize to queries with similar but not identical symbols.
+
+
+## Inductive Logic Programming
+ILP builds upon Symbolic Theorem Procers to learn interpretable rules from data and to exploit them for reasoning in KBs. 
 
 ## Literature for soft reasoning & neural reasoning
 * Bostrom's line of research 
