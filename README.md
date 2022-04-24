@@ -4,9 +4,9 @@
 * Johan Bos's line of research
   * [Recognising Textual Entailment with Logical Inference](https://aclanthology.org/H05-1079.pdf)
   * Boxer: [Wide-Coverage Semantic Analysis with Boxer](https://aclanthology.org/W08-2222.pdf), brief description [Open-Domain Semantic Parsing with Boxer](https://aclanthology.org/W15-1841.pdf)(NODALIDA 2015)
-    * Some helpful link to complie Boxer: [discussion](https://github.com/nltk/nltk/issues/1612)
-    * [new candc installation](https://github.com/chrzyki/candc) 
-    * [nltk boxer tool](https://www.nltk.org/_modules/nltk/sem/boxer.html)
+   * Some helpful link to complie Boxer: [discussion](https://github.com/nltk/nltk/issues/1612)
+   * [new candc installation](https://github.com/chrzyki/candc) 
+   * [nltk boxer tool](https://www.nltk.org/_modules/nltk/sem/boxer.html)
 
 * [Reasoning Like Program Executors](https://arxiv.org/pdf/2201.11473.pdf)
 * [Neural Unification for Logic Reasoning over Natural Language](https://arxiv.org/pdf/2109.08460.pdf)
@@ -27,15 +27,17 @@
 
 
 ## Inductive Logic Programming
-ILP builds upon Symbolic Theorem Procers to learn interpretable rules from data and to exploit them for reasoning in KBs. 
+ILP builds upon Symbolic Theorem Procers to learn interpretable rules from data and to exploit them for reasoning in KBs.  
+* [Inductive Logic Programming At 30: A New Introduction](https://arxiv.org/pdf/2008.07912.pdf)
 
 ## Literature for soft reasoning & neural reasoning
 * Bostrom's line of research 
   * [Flexible Generation of Natural Language Deductions](https://arxiv.org/pdf/2104.08825.pdf)
   * [Natural Language Deduction through Search over Statement Compositions](https://arxiv.org/pdf/2104.08825.pdf):
 * Allen's AI:
-  * [Transformers as Soft Reasoners over Language](https://arxiv.org/pdf/2002.05867.pdf)
+  * [Transformers as Soft Reasoners over Language](https://arxiv.org/pdf/2002.05867.pdf)[IJCAI 2020, P. Clark] They collect datasets, which are binary classification task of format consisting context(rule, fact) + statement + answer(T/F).
 * [Reasoning about Entailment with Neural Attention](https://arxiv.org/pdf/1509.06664.pdf)
+* [Towards Neural Network-based reasoning](https://arxiv.org/pdf/1508.05508.pdf)[2015, Baolin Peng] Neural Reasoner can infer over multiple supporting facts and find an answer to the question in specific forms
 
 ## Literature for Natural logic(Lambda Logical Forms LLFs)
 * [NaturalLI: Natural Logic Inference for Common Sense Reasoning*](https://nlp.stanford.edu/pubs/angeli2014-emnlp-naturalli.pdf)(EMNLP 2014, G. Angeli and C. Manning): Natural Logic inference cast as search. Each step of the search tree has branches of all relations types (MacCartney relations). The sequence of logic relations can be expressed as a finite state automaton.
