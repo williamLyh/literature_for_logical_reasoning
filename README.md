@@ -1,6 +1,5 @@
 # Literature_for_logical_reasoning_generation
-In particular, the ability to derive reasoned conclusions from stated knowledge suggests new opportunities for explainability, correctability/machine instruction, and counterfactual reasoning
-in question-answering. (quoted from *Transformers as Soft Reasoners over Language*)  
+In particular, the ability to derive reasoned conclusions from stated knowledge suggests new opportunities for explainability, correctability/machine instruction, and counterfactual reasoning in question-answering. (quoted from *Transformers as Soft Reasoners over Language*)  
 
 ## Literature for logical reasoning
 * Johan Bos's line of research
